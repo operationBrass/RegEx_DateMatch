@@ -54,7 +54,7 @@ In contrast to Greedy, Lazy will stop search after its first match of a date.
 
 Flags, in a regular expression, are tokens that modify its behavior of searching
 
-###Global pattern flags
+### Global pattern flags
 
 `g modifier: global` All matches (don't return after first match)
 
