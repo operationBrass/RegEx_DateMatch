@@ -26,13 +26,13 @@ Below is the Reg-Ex exression we will be looking into:
 
 2. `\d ` next we have `\d ` Here we indicate a match of any digit between 0-9.
 
-3. {1,2} – This is a condition for the `\d ` digit search. It enables match of one OR two digits anywhere in sequence as many times as needed. This is called greedy regex quantifier.
+3. `{1,2}` – This is a condition for the `\d ` digit search. It enables match of one OR two digits anywhere in sequence as many times as needed. This is called greedy regex quantifier.
 
 4. `\/ `- the ‘\’ is a selector and the ‘/’is a match for the character `/ ` this search is case sensitive. For Example, ‘\A’
 
-5. Repeat steps 2 and 3 for the month ‘\/d{1,2}\/’
+5. Repeat steps 2 and 3 for the month `\/d{1,2}\/`
 
-6. `d{4}` similar to `{1,2}` where it is look for 4 numbers anywhere in sequence as many times as needed (greedy).
+6. `d{4}` similar to `d{1,2}` only it will look for 4 numbers anywhere in sequence as many times as needed (greedy quantifier).
 
 7. `$` this asserts position at the end of the line
 
